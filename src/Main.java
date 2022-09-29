@@ -4,5 +4,8 @@ public class Main {
         System.out.println("Änderung");
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
